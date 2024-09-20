@@ -1,0 +1,10 @@
+# data frames
+Uid=c(1,2,3,4,NA)
+Uname=c("AIT","RVCE","BMSCE","PESCE","CMRIT")
+Strength=c(516,234,867,897,456)
+result=c(90,95,88,85,83)
+location=c("banglore","kengeri","mysore","belgavi","manglore")
+Uni_data=data.frame("id"=Uid,"name"=Uname,Strength,result,location)
+print(Uni_data)
+str(Uni_data)
+summary(Uni_data)
